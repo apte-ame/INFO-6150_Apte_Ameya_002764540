@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  /* body { */
+  background-color: #f0f0f0;
+  /* } */
+}
+
+.stopwatch-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* #timer {
+  font-size: 24px;
+  margin: 10px;
+} */
+
+input[type="text"] {
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.large-timer {
+  font-size: 5rem; /* You can adjust the size as needed */
+}
+
+#main-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px auto;
+  /* max-width: 400px; */
+}

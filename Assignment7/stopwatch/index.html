@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stopwatch</title>
+    <link rel="icon" type="image/x-icon" href="./images/stopwatch-solid.svg" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container mt-5" id="main-container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+          <!-- <label id="timer" class="display-4">00:00:00</label> -->
+          <label id="timer" class="display-4 large-timer">00:00:00</label>
+          <input id="datepicker" class="form-control" readonly />
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-md-6 text-center">
+          <button id="start-button" class="btn btn-primary mr-2">Start</button>
+          <button id="stop-button" class="btn btn-danger mr-2">Stop</button>
+          <button id="reset-button" class="btn btn-secondary">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Stopwatch</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-6 offset-md-3 text-center">
+          <div class="stopwatch-container">
+            <label id="timer" class="display-4">00:00:00</label>
+            <input id="datepicker" class="form-control" readonly />
+            <button id="start-button" class="btn btn-primary mr-2">
+              Start
+            </button>
+            <button id="stop-button" class="btn btn-danger mr-2">Stop</button>
+            <button id="reset-button" class="btn btn-secondary">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Stopwatch</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="stopwatch-container">
+      <label id="timer">00:00:00</label>
+      <input id="datepicker" readonly />
+      <button id="start-button">Start</button>
+      <button id="stop-button">Stop</button>
+      <button id="reset-button">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html> -->
